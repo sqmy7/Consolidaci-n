@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', sans-serif;
-    background: url('_MG_0450.JPG') no-repeat center center fixed;
+    background: url('img/fondocons.jpg') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
