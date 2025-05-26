@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: url('_MG_0450.JPG') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .contenedor {
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 25px;
+    border: 2px solid #a77cff;
+    border-radius: 12px;
+    max-width: 350px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(167, 124, 255, 0.4);
+    animation: acercarAlejar 4s ease-in-out infinite;
+  }
+  
+  .icono {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #d6b4ff;
+  }
+  
+  p {
+    font-size: 14px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+  }
+  
+  .final {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ffe3ff;
+  }
+  
+  @keyframes acercarAlejar {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.03); }
+    100% { transform: scale(1); }
+  }
+  
